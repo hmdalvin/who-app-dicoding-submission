@@ -1,38 +1,37 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:who_app/main_screen.dart';
 import 'package:who_app/model/virus_data.dart';
 
-var nameTitleStyle = TextStyle(
+var nameTitleStyle = const TextStyle(
   fontFamily: 'Poppins',
   fontWeight: FontWeight.w700,
   fontSize: 26.0,
   color: Colors.blue,
 );
 
-var familiTextTitle = TextStyle(
+var familiTextTitle = const TextStyle(
   fontFamily: 'Poppins',
   fontSize: 20.0,
   color: Colors.grey,
 );
 
-var titleTaksonomyText = TextStyle(
+var titleTaksonomyText = const TextStyle(
   fontFamily: 'Poppins',
   fontWeight: FontWeight.w700,
   color: Colors.blueAccent,
 );
 
-var descriptionTaksonomyText = TextStyle(
+var descriptionTaksonomyText = const TextStyle(
   fontFamily: 'Poppins',
   color: Colors.grey,
 );
 
-var titleTaksonomyWebText = TextStyle(
+var titleTaksonomyWebText = const TextStyle(
   fontFamily: 'Poppins',
   fontWeight: FontWeight.w700,
 );
 
-var descriptionTaksonomyWebText = TextStyle(
+var descriptionTaksonomyWebText = const TextStyle(
   fontFamily: 'Poppins',
   color: Colors.grey,
 );
